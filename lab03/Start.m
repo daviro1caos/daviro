@@ -25,18 +25,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
-
-
 - (IBAction)btn1pressed:(id)sender {
     self.lblMsg.text = @"Espectativa";
-    self.imguser.image = [UIImage imageNamed:@"vane.jpg" ];
+    //self.imguser.image = [UIImage imageNamed:@"vane.jpg" ];
 }
 
 - (IBAction)btn2Pressed:(id)sender {
     self.lblMsg.text = @"Realidad";
-    self.imguser.image = [UIImage imageNamed:@"paqui.jpg" ];
+    //self.imguser.image = [UIImage imageNamed:@"paqui.jpg" ];
 }
 
 
