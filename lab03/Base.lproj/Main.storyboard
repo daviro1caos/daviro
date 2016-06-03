@@ -8,7 +8,7 @@
         <!--Start-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="Start" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="start" id="BYZ-38-t0r" customClass="Start" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -85,101 +85,152 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4MB-2g-8Cb">
-                                        <rect key="frame" x="114" y="127" width="46" height="30"/>
+                                        <rect key="frame" x="111" y="122" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive2_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9i-lI-l1d"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KzR-JL-C9q">
                                         <rect key="frame" x="114" y="223" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive2_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="unl-Br-fn8"/>
+                                            <action selector="Vive3_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WEs-H3-7Rv"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cfy-pO-YEJ">
                                         <rect key="frame" x="214" y="223" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere3_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Loh-Hs-ezE"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hwU-8f-RpK">
                                         <rect key="frame" x="114" y="322" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive4_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Dj-f0-k5D"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HyQ-la-mKe">
                                         <rect key="frame" x="214" y="322" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere4_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ym-9W-jha"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mwE-bn-dg7">
                                         <rect key="frame" x="114" y="418" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive5_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3HJ-eD-DCk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Sst-sl-2VO">
                                         <rect key="frame" x="214" y="418" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere5_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bjg-K3-FNa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nUX-LG-2wI">
                                         <rect key="frame" x="114" y="513" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive6_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PPu-ig-0zy"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NvL-lg-fQ3">
                                         <rect key="frame" x="214" y="513" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere6_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="71z-Zj-5cF"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ApJ-AT-mnS">
                                         <rect key="frame" x="114" y="616" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive7_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cNf-3B-OfT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hwk-wl-0eD">
                                         <rect key="frame" x="214" y="616" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere7_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KfE-1g-JVc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yZc-7W-zDZ">
                                         <rect key="frame" x="214" y="706" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere8_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B5e-pG-PsL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cr4-Rg-jxE">
                                         <rect key="frame" x="114" y="706" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive8_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fM1-Xs-a9i"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QAK-5R-Hd2">
                                         <rect key="frame" x="214" y="803" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere9_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BIw-hn-isU"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TbN-j8-uI2">
                                         <rect key="frame" x="114" y="803" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive9_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nuE-JO-3KH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="D60-02-cPd">
                                         <rect key="frame" x="114" y="894" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="vive"/>
+                                        <connections>
+                                            <action selector="Vive10_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GgB-Ju-bI7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cof-dF-cWK">
                                         <rect key="frame" x="214" y="894" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere10_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m7s-es-Wwl"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iQV-AB-CQs">
                                         <rect key="frame" x="214" y="122" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="muere"/>
+                                        <connections>
+                                            <action selector="Muere2_a:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZRG-Rb-e7Y"/>
+                                        </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="R72-4v-FbP">
-                                        <rect key="frame" x="271" y="113" width="46" height="47"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="P55-rT-ec5">
-                                        <rect key="frame" x="271" y="213" width="47" height="50"/>
+                                        <rect key="frame" x="272" y="213" width="47" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="UZo-77-Wq9">
@@ -195,38 +246,76 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="XMX-ER-yTL">
-                                        <rect key="frame" x="269" y="604" width="48" height="50"/>
+                                        <rect key="frame" x="269" y="606" width="48" height="50"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="UmG-fh-d5k">
-                                        <rect key="frame" x="271" y="694" width="46" height="49"/>
+                                        <rect key="frame" x="271" y="696" width="46" height="49"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="Idm-um-omZ">
                                         <rect key="frame" x="270" y="791" width="47" height="49"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="AqB-H6-rEI">
-                                        <rect key="frame" x="270" y="882" width="47" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qh3-J4-gkS">
-                                        <rect key="frame" x="111" y="962" width="98" height="30"/>
+                                        <rect key="frame" x="111" y="956" width="98" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="TERMINAR"/>
+                                        <connections>
+                                            <action selector="btnfinish:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lhg-bD-P19"/>
+                                            <action selector="finishPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NU1-50-Ndw"/>
+                                            <segue destination="8un-KJ-JDi" kind="modal" id="wJT-WU-BoD"/>
+                                        </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="R72-4v-FbP">
+                                        <rect key="frame" x="266" y="113" width="46" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pen.png" id="AqB-H6-rEI">
+                                        <rect key="frame" x="270" y="884" width="47" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="1ot-09-9Sl"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="1000"/>
                     <connections>
+                        <outlet property="Muere10_o" destination="Cof-dF-cWK" id="xof-Tx-7vc"/>
+                        <outlet property="Muere2_o" destination="iQV-AB-CQs" id="koc-1G-qwW"/>
+                        <outlet property="Muere3_o" destination="Cfy-pO-YEJ" id="tou-u8-yN8"/>
+                        <outlet property="Muere4_o" destination="HyQ-la-mKe" id="p37-dU-Rgk"/>
+                        <outlet property="Muere5_o" destination="Sst-sl-2VO" id="Vsr-9m-XRP"/>
+                        <outlet property="Muere6_o" destination="NvL-lg-fQ3" id="t41-k0-bWN"/>
+                        <outlet property="Muere7_o" destination="hwk-wl-0eD" id="rfq-D3-X3W"/>
+                        <outlet property="Muere8_o" destination="yZc-7W-zDZ" id="jVy-dQ-zP0"/>
+                        <outlet property="Muere9_o" destination="QAK-5R-Hd2" id="Ydg-Ei-7BS"/>
+                        <outlet property="Vive10_o" destination="D60-02-cPd" id="U6d-Mj-ysM"/>
+                        <outlet property="Vive2_o" destination="4MB-2g-8Cb" id="KVN-S3-NaB"/>
+                        <outlet property="Vive3_o" destination="KzR-JL-C9q" id="N3l-fK-rY7"/>
+                        <outlet property="Vive4_o" destination="hwU-8f-RpK" id="hXC-in-JhQ"/>
+                        <outlet property="Vive5_o" destination="mwE-bn-dg7" id="bnM-ZP-KpK"/>
+                        <outlet property="Vive6_o" destination="nUX-LG-2wI" id="rvo-kL-mXF"/>
+                        <outlet property="Vive7_o" destination="ApJ-AT-mnS" id="Kif-oY-t1K"/>
+                        <outlet property="Vive8_o" destination="Cr4-Rg-jxE" id="Paw-iB-xkL"/>
+                        <outlet property="Vive9_o" destination="TbN-j8-uI2" id="l31-fQ-Mke"/>
                         <outlet property="btn1" destination="FnR-gB-Wey" id="U2k-GB-RIW"/>
                         <outlet property="btn2" destination="epL-FY-hzl" id="5IW-F7-1lW"/>
                         <outlet property="imguser" destination="EZ0-d2-cMX" id="OnN-6U-UzX"/>
                         <outlet property="lblMsg" destination="D63-gL-aCG" id="aZR-3X-7S4"/>
+                        <outlet property="pen1" destination="5mE-3i-krJ" id="ySp-pN-NNZ"/>
+                        <outlet property="pen10" destination="AqB-H6-rEI" id="bCF-wd-GPM"/>
+                        <outlet property="pen2" destination="R72-4v-FbP" id="h9W-Lz-Hec"/>
+                        <outlet property="pen3" destination="P55-rT-ec5" id="ChD-Ct-Pcx"/>
+                        <outlet property="pen4" destination="UZo-77-Wq9" id="DZC-eD-qMZ"/>
+                        <outlet property="pen5" destination="Bsj-dw-Brs" id="ea5-N4-0t7"/>
+                        <outlet property="pen6" destination="Clc-ys-VHj" id="ZD8-cT-QGu"/>
+                        <outlet property="pen7" destination="XMX-ER-yTL" id="ey2-9b-MmK"/>
+                        <outlet property="pen8" destination="UmG-fh-d5k" id="PoF-2R-knQ"/>
+                        <outlet property="pen9" destination="Idm-um-omZ" id="7AA-bB-DQ7"/>
                         <outlet property="scroll" destination="XuP-ko-G0d" id="7bY-mY-kLJ"/>
                     </connections>
                 </viewController>
@@ -234,19 +323,31 @@
             </objects>
             <point key="canvasLocation" x="142" y="365"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="0wX-0X-Loe">
+        <!--Start-->
+        <scene sceneID="glS-ma-wyL">
             <objects>
-                <viewController id="yAK-OG-J9D" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mr7-UV-5gd">
+                <viewController storyboardIdentifier="finish" id="8un-KJ-JDi" customClass="Start" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xd9-hf-YNH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ganador" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tPI-hp-mmr">
+                                <rect key="frame" x="76" y="132" width="131" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="winlbl" destination="tPI-hp-mmr" id="KA9-FG-se8"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ueK-JD-AMe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tpx-uV-Gxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="510" y="149"/>
+            <point key="canvasLocation" x="573" y="175"/>
         </scene>
     </scenes>
     <resources>
