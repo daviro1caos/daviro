@@ -21,5 +21,8 @@
 - (IBAction)btn2Pressed:(id)sender;
 @property (strong, nonatomic) IBOutlet UIImageView *imguser;
 
+@property (strong, nonatomic) IBOutlet UIScrollView *scroll;
+
+
 @end
 

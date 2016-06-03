@@ -14,10 +14,13 @@
 
 @implementation Start
 
+static bool boImg1 = false;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.lblMsg.text = @"Putos!!!";
+    self.scroll.contentSize = CGSizeMake(500, 800);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,13 +29,25 @@
 }
 
 - (IBAction)btn1pressed:(id)sender {
-    self.lblMsg.text = @"Espectativa";
-    //self.imguser.image = [UIImage imageNamed:@"vane.jpg" ];
+    
+    if(boImg1 == false)
+    {
+        boImg1 = true;
+        self.lblMsg.text = @"Espectativa";
+        self.btn1.backgroundColor = [UIColor redColor];
+        //self.imguser.image = [UIImage imageNamed:@"vane.jpg" ];
+    }
+
 }
 
 - (IBAction)btn2Pressed:(id)sender {
-    self.lblMsg.text = @"Realidad";
-    //self.imguser.image = [UIImage imageNamed:@"paqui.jpg" ];
+    if(boImg1 == false)
+    {
+        boImg1 = true;
+        self.lblMsg.text = @"Realidad";
+        //self.imguser.image = [UIImage imageNamed:@"paqui.jpg" ];
+        self.btn2.backgroundColor = [UIColor greenColor];
+    }
 }
 
 
