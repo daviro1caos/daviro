@@ -19,8 +19,9 @@ static bool boImg1 = false;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.lblMsg.text = @"Putos!!!";
-    self.scroll.contentSize = CGSizeMake(500, 800);
+    self.lblMsg.text = @"Breaking Bad!!!";
+    self.scroll.contentSize = CGSizeMake(320, 1000);
+    
 }
 
 - (void)didReceiveMemoryWarning {
