@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.lblMsg.text = @"Putos!!!";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,6 +26,18 @@
 }
 
 
+
+
+
+- (IBAction)btn1pressed:(id)sender {
+    self.lblMsg.text = @"Espectativa";
+    self.imguser.image = [UIImage imageNamed:@"vane.jpg" ];
+}
+
+- (IBAction)btn2Pressed:(id)sender {
+    self.lblMsg.text = @"Realidad";
+    self.imguser.image = [UIImage imageNamed:@"paqui.jpg" ];
+}
 
 
 
