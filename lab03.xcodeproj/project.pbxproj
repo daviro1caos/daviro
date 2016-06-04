@@ -29,6 +29,17 @@
 		E4EC5CE21D0137AF00EEFB77 /* tuco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CD31D0137AF00EEFB77 /* tuco.jpg */; };
 		E4EC5CE31D0137AF00EEFB77 /* walter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CD41D0137AF00EEFB77 /* walter.jpg */; };
 		E4EC5CE41D0137AF00EEFB77 /* walterjr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CD51D0137AF00EEFB77 /* walterjr.jpg */; };
+		E4EC5CF21D02445C00EEFB77 /* Andrea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CE81D02445C00EEFB77 /* Andrea.jpg */; };
+		E4EC5CF31D02445C00EEFB77 /* Carl Grimes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CE91D02445C00EEFB77 /* Carl Grimes.jpg */; };
+		E4EC5CF41D02445C00EEFB77 /* Carol Peletier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CEA1D02445C00EEFB77 /* Carol Peletier.jpg */; };
+		E4EC5CF51D02445C00EEFB77 /* Daryl Dixon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CEB1D02445C00EEFB77 /* Daryl Dixon.jpg */; };
+		E4EC5CF61D02445C00EEFB77 /* El Gobernador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CEC1D02445C00EEFB77 /* El Gobernador.jpg */; };
+		E4EC5CF71D02445C00EEFB77 /* Glenn Rhee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CED1D02445C00EEFB77 /* Glenn Rhee.jpg */; };
+		E4EC5CF81D02445C00EEFB77 /* Maggie Greene.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CEE1D02445C00EEFB77 /* Maggie Greene.jpg */; };
+		E4EC5CF91D02445C00EEFB77 /* Michonne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CEF1D02445C00EEFB77 /* Michonne.jpg */; };
+		E4EC5CFA1D02445C00EEFB77 /* Rick Grimes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CF01D02445C00EEFB77 /* Rick Grimes.jpg */; };
+		E4EC5CFB1D02445C00EEFB77 /* T-Dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CF11D02445C00EEFB77 /* T-Dog.jpg */; };
+		E4EC5CFD1D0245D400EEFB77 /* tacha.png in Resources */ = {isa = PBXBuildFile; fileRef = E4EC5CFC1D0245D400EEFB77 /* tacha.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +69,17 @@
 		E4EC5CD31D0137AF00EEFB77 /* tuco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tuco.jpg; sourceTree = "<group>"; };
 		E4EC5CD41D0137AF00EEFB77 /* walter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walter.jpg; sourceTree = "<group>"; };
 		E4EC5CD51D0137AF00EEFB77 /* walterjr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walterjr.jpg; sourceTree = "<group>"; };
+		E4EC5CE81D02445C00EEFB77 /* Andrea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Andrea.jpg; sourceTree = "<group>"; };
+		E4EC5CE91D02445C00EEFB77 /* Carl Grimes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carl Grimes.jpg"; sourceTree = "<group>"; };
+		E4EC5CEA1D02445C00EEFB77 /* Carol Peletier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Carol Peletier.jpg"; sourceTree = "<group>"; };
+		E4EC5CEB1D02445C00EEFB77 /* Daryl Dixon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Daryl Dixon.jpg"; sourceTree = "<group>"; };
+		E4EC5CEC1D02445C00EEFB77 /* El Gobernador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "El Gobernador.jpg"; sourceTree = "<group>"; };
+		E4EC5CED1D02445C00EEFB77 /* Glenn Rhee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Glenn Rhee.jpg"; sourceTree = "<group>"; };
+		E4EC5CEE1D02445C00EEFB77 /* Maggie Greene.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Maggie Greene.jpg"; sourceTree = "<group>"; };
+		E4EC5CEF1D02445C00EEFB77 /* Michonne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michonne.jpg; sourceTree = "<group>"; };
+		E4EC5CF01D02445C00EEFB77 /* Rick Grimes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rick Grimes.jpg"; sourceTree = "<group>"; };
+		E4EC5CF11D02445C00EEFB77 /* T-Dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "T-Dog.jpg"; sourceTree = "<group>"; };
+		E4EC5CFC1D0245D400EEFB77 /* tacha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tacha.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +154,17 @@
 		E4EC5CC61D0137AF00EEFB77 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				E4EC5CFC1D0245D400EEFB77 /* tacha.png */,
+				E4EC5CE81D02445C00EEFB77 /* Andrea.jpg */,
+				E4EC5CE91D02445C00EEFB77 /* Carl Grimes.jpg */,
+				E4EC5CEA1D02445C00EEFB77 /* Carol Peletier.jpg */,
+				E4EC5CEB1D02445C00EEFB77 /* Daryl Dixon.jpg */,
+				E4EC5CEC1D02445C00EEFB77 /* El Gobernador.jpg */,
+				E4EC5CED1D02445C00EEFB77 /* Glenn Rhee.jpg */,
+				E4EC5CEE1D02445C00EEFB77 /* Maggie Greene.jpg */,
+				E4EC5CEF1D02445C00EEFB77 /* Michonne.jpg */,
+				E4EC5CF01D02445C00EEFB77 /* Rick Grimes.jpg */,
+				E4EC5CF11D02445C00EEFB77 /* T-Dog.jpg */,
 				E4EC5CC71D0137AF00EEFB77 /* check.png */,
 				E4EC5CC81D0137AF00EEFB77 /* fail.png */,
 				E4EC5CC91D0137AF00EEFB77 /* green.jpg */,
@@ -209,22 +242,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EC5CF61D02445C00EEFB77 /* El Gobernador.jpg in Resources */,
 				E4EC5CE11D0137AF00EEFB77 /* skyler.jpg in Resources */,
 				E4EC5C761D00F63C00EEFB77 /* LaunchScreen.storyboard in Resources */,
 				E4EC5CE21D0137AF00EEFB77 /* tuco.jpg in Resources */,
 				E4EC5CDA1D0137AF00EEFB77 /* hank.jpg in Resources */,
+				E4EC5CF51D02445C00EEFB77 /* Daryl Dixon.jpg in Resources */,
 				E4EC5CD71D0137AF00EEFB77 /* fail.png in Resources */,
 				E4EC5CD91D0137AF00EEFB77 /* gus.jpg in Resources */,
 				E4EC5CE31D0137AF00EEFB77 /* walter.jpg in Resources */,
 				E4EC5CDF1D0137AF00EEFB77 /* red.png in Resources */,
+				E4EC5CF21D02445C00EEFB77 /* Andrea.jpg in Resources */,
 				E4EC5CE41D0137AF00EEFB77 /* walterjr.jpg in Resources */,
 				E4EC5CDB1D0137AF00EEFB77 /* jane.jpg in Resources */,
+				E4EC5CF31D02445C00EEFB77 /* Carl Grimes.jpg in Resources */,
 				E4EC5CE01D0137AF00EEFB77 /* saul.png in Resources */,
 				E4EC5C731D00F63C00EEFB77 /* Assets.xcassets in Resources */,
 				E4EC5CDC1D0137AF00EEFB77 /* jesse.jpg in Resources */,
+				E4EC5CFD1D0245D400EEFB77 /* tacha.png in Resources */,
 				E4EC5CDD1D0137AF00EEFB77 /* mike.png in Resources */,
+				E4EC5CFA1D02445C00EEFB77 /* Rick Grimes.jpg in Resources */,
 				E4EC5CD81D0137AF00EEFB77 /* green.jpg in Resources */,
 				E4EC5CDE1D0137AF00EEFB77 /* pen.png in Resources */,
+				E4EC5CF91D02445C00EEFB77 /* Michonne.jpg in Resources */,
+				E4EC5CF81D02445C00EEFB77 /* Maggie Greene.jpg in Resources */,
+				E4EC5CFB1D02445C00EEFB77 /* T-Dog.jpg in Resources */,
+				E4EC5CF41D02445C00EEFB77 /* Carol Peletier.jpg in Resources */,
+				E4EC5CF71D02445C00EEFB77 /* Glenn Rhee.jpg in Resources */,
 				E4EC5CD61D0137AF00EEFB77 /* check.png in Resources */,
 				E4EC5C6E1D00F63C00EEFB77 /* Main.storyboard in Resources */,
 			);
